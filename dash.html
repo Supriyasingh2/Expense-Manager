@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+    <link rel="stylesheet" href="dash.css">
+</head>
+<body>
+    <div id="top_3_info"></div>
+    <br/>
+    <button id="r_transactions">Recent Trancations(maximum upto 5)</button>
+    <div id="recent_trans"></div>
+    <br/>
+    <button id="enter_transaction">Enter the transaction</button>
+    
+    <div id="enter_trans">
+        <form id="form">
+            <div>
+                Title: <input type="text" name="title" placeholder="enter title"/>
+            </div>
+            <div>
+                Type: <input type="radio" name="credit" value="credit" />Credit 
+                <input type="radio" name="debit" value="debit"/>Debit
+            </div>
+            <div>
+                Amount: <input type="number" name="amount" placeholder="enter amout"/>
+            </div>
+            <input type="submit" value="Submit"/>
+        </form>
+    </div>
+    <button id="lodger">click here to ENTER LODGER</button>
+    <script type="text/javascript" src="dash.js"></script>
+</body>
+</html>
